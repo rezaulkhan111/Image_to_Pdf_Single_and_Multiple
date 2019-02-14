@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.delaroystudios.imagepdf.BlankFragment">
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image" />
+
+
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:clickable="false"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/tv_NoOfImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="mNoOfImages" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_image1"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_below="@+id/btn_select" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_image2"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_below="@+id/iv_image1" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_image3"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_below="@+id/iv_image2" />-->
+
+</FrameLayout>
