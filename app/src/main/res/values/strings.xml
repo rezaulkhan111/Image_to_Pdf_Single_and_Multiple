@@ -2,21 +2,21 @@
     <string name="app_name">PDF Converter</string>
     <string name="title">PDF Actions</string>
 
-    <string name="file_name_text">File Name</string>
-    <string name="select_images_text">Select Images</string>
-    <string name="password_protect_pdf_text">Password Protect PDF</string>
-    <string name="edit_images_text">Edit Images</string>
-    <string name="open_pdf_text">Open PDF</string>
-    <string name="create_pdf_text">Create PDF</string>
-    <string name="details"><b>Details</b></string>
-    <string name="search_hint">Name of file</string>
-    <string name="search">search</string>
-    <string name="set_page_size_text">Set Page Size</string>
-    <string name="preview_image_to_pdf">Preview PDF</string>
+    <string name="file_name_text" tools:keep="@string/file_name_text">File Name</string>
+    <string name="select_images_text" tools:keep="@string/select_images_text">Select Images</string>
+    <string name="password_protect_pdf_text" tools:keep="@string/password_protect_pdf_text">Password Protect PDF</string>
+    <string name="edit_images_text" tools:keep="@string/edit_images_text">Edit Images</string>
+    <string name="open_pdf_text" tools:keep="@string/open_pdf_text">Open PDF</string>
+    <string name="create_pdf_text" tools:keep="@string/create_pdf_text">Create PDF</string>
+    <string name="details" tools:keep="@string/details"><b>Details</b></string>
+    <string name="search_hint" tools:keep="@string/search_hint">Name of file</string>
+    <string name="search" tools:keep="@string/search">search</string>
+    <string name="set_page_size_text" tools:keep="@string/set_page_size_text">Set Page Size</string>
+    <string name="preview_image_to_pdf" tools:keep="@string/preview_image_to_pdf">Preview PDF</string>
 
-    <string name="default_content_description">no description</string>
-    <string name="prompt_input">Enter here</string>
-    <array name="items">
+    <string name="default_content_description" tools:keep="@string/default_content_description">no description</string>
+    <string name="prompt_input" tools:keep="@string/prompt_input">Enter here</string>
+    <array name="items" tools:keep="@array/items">
         <item>Open File</item>
         <item>Delete File</item>
         <item>Rename File</item>
@@ -29,7 +29,7 @@
         <item>Add Watermark</item>
     </array>
 
-    <array name="itemIds" translatable="false">
+    <array name="itemIds" translatable="false" tools:keep="@array/itemIds">
         <item>open</item>
         <item>delete</item>
         <item>rename</item>
@@ -38,7 +38,7 @@
         <item>details</item>
     </array>
 
-    <string-array name="array_page_sizes_b0_b10" translatable="false">
+    <string-array name="array_page_sizes_b0_b10" translatable="false" tools:keep="@array/array_page_sizes_b0_b10">
         <item>B0 (2834 x 4008)</item>
         <item>B1 (2004 x 2834)</item>
         <item>B2 (1417 x 2004)</item>
@@ -52,7 +52,7 @@
         <item>B10 (87 x 124)</item>
     </string-array>
 
-    <string-array name="array_page_sizes_a0_b10" translatable="false">
+    <string-array name="array_page_sizes_a0_b10" translatable="false" tools:keep="@array/array_page_sizes_a0_b10">
         <item>A0 (2384 x 3370)</item>
         <item>A1 (1684 x 2384)</item>
         <item>A2 (1191 x 1684)</item>
@@ -66,7 +66,7 @@
         <item>A10 (73 x 105)</item>
     </string-array>
 
-    <string-array name="fontStyles" translatable="false">
+    <string-array name="fontStyles" translatable="false" tools:keep="@array/fontStyles">
         <item>NORMAL</item>
         <item>BOLD</item>
         <item>ITALIC</item>
@@ -75,398 +75,398 @@
         <item>BOLDITALIC</item>
     </string-array>
 
-    <string name="pdf_ext" translatable="false">.pdf</string>
-    <string name="pdf_type" translatable="false">application/pdf</string>
+    <string name="pdf_ext" translatable="false" tools:keep="@string/pdf_ext">.pdf</string>
+    <string name="pdf_type" translatable="false" tools:keep="@string/pdf_type">application/pdf</string>
 
-    <string name="please_wait">Please Wait</string>
+    <string name="please_wait" tools:keep="@string/please_wait">Please Wait</string>
 
-    <string name="bundleKey">ImageUri</string>
-    <string name="whatsappToast">Sorry! Images could not be added. Please select the images from our **Select Images** option.</string>
-    <string name="successToast">Images successfully added.</string>
+    <string name="bundleKey" tools:keep="@string/bundleKey">ImageUri</string>
+    <string name="whatsappToast" tools:keep="@string/whatsappToast">Sorry! Images could not be added. Please select the images from our **Select Images** option.</string>
+    <string name="successToast" tools:keep="@string/successToast">Images successfully added.</string>
 
     <!-- Navigation drawer strings -->
-    <string name="create_pdf">Create PDF</string>
-    <string name="qr_barcode_pdf">QR &amp; Barcodes</string>
-    <string name="viewFiles">View Files</string>
-    <string name="extras">Extras</string>
-    <string name="share">Share</string>
-    <string name="help">Help</string>
+    <string name="create_pdf" tools:keep="@string/create_pdf">Create PDF</string>
+    <string name="qr_barcode_pdf" tools:keep="@string/qr_barcode_pdf">QR &amp; Barcodes</string>
+    <string name="viewFiles" tools:keep="@string/viewFiles">View Files</string>
+    <string name="extras" tools:keep="@string/extras">Extras</string>
+    <string name="share" tools:keep="@string/share">Share</string>
+    <string name="help" tools:keep="@string/help">Help</string>
 
     <!-- images to PDF -->
-    <string name="image_scale_type">Set Image Scale Type</string>
-    <string name="stretch_image">Stretch image to fit on page</string>
-    <string name="maintain_aspect_ratio">Maintain aspect ratio of images</string>
+    <string name="image_scale_type" tools:keep="@string/image_scale_type">Set Image Scale Type</string>
+    <string name="stretch_image" tools:keep="@string/stretch_image">Stretch image to fit on page</string>
+    <string name="maintain_aspect_ratio" tools:keep="@string/maintain_aspect_ratio">Maintain aspect ratio of images</string>
 
     <!--QR & Barcode Scan-->
-    <string name="scan_qrcode">Scan QR code</string>
-    <string name="scan_barcode">Scan Barcode</string>
-    <string name="qrbarcodes_to_pdf">Create PDF from QR &amp; Barcode</string>
-    <string name="scan_cancelled">Cancelled Scan by user</string>
+    <string name="scan_qrcode" tools:keep="@string/scan_qrcode">Scan QR code</string>
+    <string name="scan_barcode" tools:keep="@string/scan_barcode">Scan Barcode</string>
+    <string name="qrbarcodes_to_pdf" tools:keep="@string/qrbarcodes_to_pdf">Create PDF from QR &amp; Barcode</string>
+    <string name="scan_cancelled" tools:keep="@string/scan_cancelled">Cancelled Scan by user</string>
 
     <!--Snackbar strings -->
-    <string name="snackbar_no_images">No Images selected</string>
-    <string name="snackbar_no_pdfs_selected">No PDFs selected</string>
-    <string name="snackbar_name_not_blank">Name cannot be blank</string>
+    <string name="snackbar_no_images" tools:keep="@string/snackbar_no_images">No Images selected</string>
+    <string name="snackbar_no_pdfs_selected" tools:keep="@string/snackbar_no_pdfs_selected">No PDFs selected</string>
+    <string name="snackbar_name_not_blank" tools:keep="@string/snackbar_name_not_blank">Name cannot be blank</string>
     <string name="snackbar_permissions_given">Permissions Given!</string>
     <string name="snackbar_insufficient_permissions">Insufficient Permissions!</string>
-    <string name="no_permissions">Please provide storage permissions to view your files.</string>
-    <string name="prompt_give_permission">Provide permissions</string>
+    <string name="no_permissions" tools:keep="@string/no_permissions">Please provide storage permissions to view your files.</string>
+    <string name="prompt_give_permission" tools:keep="@string/prompt_give_permission">Provide permissions</string>
     <string name="snackbar_images_added">Images added</string>
-    <string name="snackbar_file_renamed">File renamed.</string>
-    <string name="snackbar_file_not_renamed">File can\'t be renamed.</string>
-    <string name="snackbar_file_deleted">File deleted.</string>
-    <string name="snackbar_file_not_deleted">File can\'t be deleted.</string>
-    <string name="snackbar_folder_not_created">Error on creating application folder.</string>
-    <string name="pdf_merged">PDFs Merged</string>
+    <string name="snackbar_file_renamed" tools:keep="@string/snackbar_file_renamed">File renamed.</string>
+    <string name="snackbar_file_not_renamed" tools:keep="@string/snackbar_file_not_renamed">File can\'t be renamed.</string>
+    <string name="snackbar_file_deleted" tools:keep="@string/snackbar_file_deleted">File deleted.</string>
+    <string name="snackbar_file_not_deleted" tools:keep="@string/snackbar_file_not_deleted">File can\'t be deleted.</string>
+    <string name="snackbar_folder_not_created" tools:keep="@string/snackbar_folder_not_created">Error on creating application folder.</string>
+    <string name="pdf_merged" tools:keep="@string/pdf_merged">PDFs Merged</string>
 
-    <string name="creating_pdf">Creating PDF</string>
-    <string name="enter_file_name">Enter file name</string>
-    <string name="example">Example : abc</string>
-    <string name="snackbar_no_pdf_app">No app to read PDF File</string>
-    <string name="open_file">Open File</string>
-    <string name="sort">Sort</string>
+    <string name="creating_pdf" tools:keep="@string/creating_pdf">Creating PDF</string>
+    <string name="enter_file_name" tools:keep="@string/enter_file_name">Enter file name</string>
+    <string name="example" tools:keep="@string/example">Example : abc</string>
+    <string name="snackbar_no_pdf_app" tools:keep="@string/snackbar_no_pdf_app">No app to read PDF File</string>
+    <string name="open_file" tools:keep="@string/open_file">Open File</string>
+    <string name="sort" tools:keep="@string/sort">Sort</string>
 
-    <string name="set_password">Set Password</string>
-    <string name="enter_password">Enter Password</string>
-    <string name="snackbar_password_cannot_be_blank">Password cannot be blank</string>
-    <string name="cannot_add_password">Password could not be applied to the PDF. Please check the PDF again.</string>
+    <string name="set_password" tools:keep="@string/set_password">Set Password</string>
+    <string name="enter_password" tools:keep="@string/enter_password">Enter Password</string>
+    <string name="snackbar_password_cannot_be_blank" tools:keep="@string/snackbar_password_cannot_be_blank">Password cannot be blank</string>
+    <string name="cannot_add_password" tools:keep="@string/cannot_add_password">Password could not be applied to the PDF. Please check the PDF again.</string>
 
     <string name="snackbar_imagecropped">Images cropped</string>
-    <string name="cropImage_activityTitle">Crop image No.</string>
-    <string name="snackbar_pdfCreated">PDF created!</string>
-    <string name="snackbar_viewAction">View</string>
-    <string name="more_options_text">More Enhancement Options</string>
-    <string name="delete">Delete</string>
-    <string name="snackbar_no_duplicate_pdf">Duplicate pages not found.No new PDF created.</string>
-    <string name="snackbar_duplicate_removed">A new PDF is created after removal of duplicate pages.</string>
+    <string name="cropImage_activityTitle" tools:keep="@string/cropImage_activityTitle">Crop image No.</string>
+    <string name="snackbar_pdfCreated" tools:keep="@string/snackbar_pdfCreated">PDF created!</string>
+    <string name="snackbar_viewAction" tools:keep="@string/snackbar_viewAction">View</string>
+    <string name="more_options_text" tools:keep="@string/more_options_text">More Enhancement Options</string>
+    <string name="delete" tools:keep="@string/delete">Delete</string>
+    <string name="snackbar_no_duplicate_pdf" tools:keep="@string/snackbar_no_duplicate_pdf">Duplicate pages not found.No new PDF created.</string>
+    <string name="snackbar_duplicate_removed" tools:keep="@string/snackbar_duplicate_removed">A new PDF is created after removal of duplicate pages.</string>
 
     <!-- Share strings -->
-    <string name="share_chooser">Select app to send message…</string>
+    <string name="share_chooser" tools:keep="@string/share_chooser">Select app to send message…</string>
 
     <!-- Rate us strings -->
-    <string name="rate_us_text">Hi! I just checked this app in playstore. Try it out : https://play.google.com/store/apps/details?id=swati4star.createpdf . It converts images to PDF so smoothly. :)</string>
-    <string name="snackbar_no_share_app">No application to share.</string>
+    <string name="rate_us_text" tools:keep="@string/rate_us_text">Hi! I just checked this app in playstore. Try it out : https://play.google.com/store/apps/details?id=swati4star.createpdf . It converts images to PDF so smoothly. :)</string>
+    <string name="snackbar_no_share_app" tools:keep="@string/snackbar_no_share_app">No application to share.</string>
 
     <!-- Select Images string -->
-    <string name="images_selected"> %1$d image(s) selected.</string>
+    <string name="images_selected" tools:ignore="PluralsCandidate"> %1$d image(s) selected.</string>
 
     <!-- Feedback Strings -->
-    <string name="feedback_subject">Suggestions for Images To PDF Converter</string>
-    <string name="feedback_text">Kindly write your precious feeback, or just drop a Hi! :)</string>
-    <string name="snackbar_no_email_clients">There are no email clients installed.</string>
-    <string name="feedback_chooser">"Send mail…"</string>
-    <string name="no_pdf">No PDFs to show</string>
-    <string name="get_started">Get Started Now</string>
-    <string name="view_files_text">View all your converted files here!</string>
-    <string name="empty_image_description">NoPdfs</string>
+    <string name="feedback_subject" tools:keep="@string/feedback_subject">Suggestions for Images To PDF Converter</string>
+    <string name="feedback_text" tools:keep="@string/feedback_text">Kindly write your precious feeback, or just drop a Hi! :)</string>
+    <string name="snackbar_no_email_clients" tools:keep="@string/snackbar_no_email_clients">There are no email clients installed.</string>
+    <string name="feedback_chooser" tools:keep="@string/feedback_chooser">"Send mail…"</string>
+    <string name="no_pdf" tools:keep="@string/no_pdf">No PDFs to show</string>
+    <string name="get_started" tools:keep="@string/get_started">Get Started Now</string>
+    <string name="view_files_text" tools:keep="@string/view_files_text">View all your converted files here!</string>
+    <string name="empty_image_description" tools:keep="@string/empty_image_description">NoPdfs</string>
 
-    <string name="enter_password_custom">Enter Password</string>
-    <string name="example_pass_123">pass@123</string>
-    <string name="remove_dialog">REMOVE</string>
-    <string name="password_remove">Password Removed</string>
+    <string name="enter_password_custom" tools:keep="@string/enter_password_custom">Enter Password</string>
+    <string name="example_pass_123" tools:keep="@string/example_pass_123">pass@123</string>
+    <string name="remove_dialog" tools:keep="@string/remove_dialog">REMOVE</string>
+    <string name="password_remove" tools:keep="@string/password_remove">Password Removed</string>
 
-    <string name="merge_pdf">Merge PDF</string>
-    <string name="merge_file_select">Select a file</string>
+    <string name="merge_pdf" tools:keep="@string/merge_pdf">Merge PDF</string>
+    <string name="merge_file_select" tools:keep="@string/merge_file_select">Select a file</string>
     <string name="File_hint_two" tools:keep="@string/File_hint_two">File Path for PDF two</string>
-    <string name="merge_files">MERGE FILES</string>
-    <string name="file_date_text">File Date</string>
-    <string name="file_size_text">File Size</string>
-    <string name="encrypted_file">_encrypted.pdf</string>
-    <string name="i_have_attached_pdfs_to_this_message">I have attached file(s) to this message</string>
-    <string name="btn_sav_text">savText</string>
-    <string name="filter_images_Text">Filter Images \n</string>
-    <string name="nextimage_contentdesc">Next Image</string>
-    <string name="compress_image">Image compression : %s%%</string>
-    <string name="quality_image">Enter % compression of image :</string>
-    <string name="invalid_entry">Invaid Entry</string>
-    <string name="compress_dialog_enter_prompt">Enter here</string>
-    <string name="compress_dialog_percentage">%</string>
-    <string name="set_as_default">Set as default</string>
-    <string name="decrypted_file">_unencrypted.pdf</string>
-    <string name="decrypt_message">Enter the password to continue</string>
-    <string name="not_encrypted">PDF is not Encrypted</string>
-    <string name="save_current">Save Current</string>
-    <string name="save_first">Save Current Image First</string>
-    <string name="Filter_name">Filter</string>
-    <string name="Filter_image_preview">Filter Image Preview</string>
-    <string name="warning">Warning</string>
-    <string name="overwrite_message">There already exists a file with the same name. Do you want to overwrite?</string>
-    <string name="b0_to_b10">B0 to B10</string>
-    <string name="a0_to_a10">A0 to A10</string>
-    <string name="tabloid">TABLOID</string>
-    <string name="executive">EXECUTIVE</string>
-    <string name="ledger">LEDGER</string>
-    <string name="letter">LETTER</string>
-    <string name="legal">LEGAL</string>
-    <string name="a4">A4</string>
-    <string name="default_page_size">DEFAULT ( %s )</string>
-    <string name="master_password_changed">The password seems to be incorrect. May be, you have changed the master password.</string>
+    <string name="merge_files" tools:keep="@string/merge_files">MERGE FILES</string>
+    <string name="file_date_text" tools:keep="@string/file_date_text">File Date</string>
+    <string name="file_size_text" tools:keep="@string/file_size_text">File Size</string>
+    <string name="encrypted_file" tools:keep="@string/encrypted_file">_encrypted.pdf</string>
+    <string name="i_have_attached_pdfs_to_this_message" tools:keep="@string/i_have_attached_pdfs_to_this_message">I have attached file(s) to this message</string>
+    <string name="btn_sav_text" tools:keep="@string/btn_sav_text">savText</string>
+    <string name="filter_images_Text" tools:keep="@string/filter_images_Text">Filter Images \n</string>
+    <string name="nextimage_contentdesc" tools:keep="@string/nextimage_contentdesc">Next Image</string>
+    <string name="compress_image" tools:keep="@string/compress_image">Image compression : %s%%</string>
+    <string name="quality_image" tools:ignore="StringFormatInvalid" tools:keep="@string/quality_image">Enter % compression of image :</string>
+    <string name="invalid_entry" tools:keep="@string/invalid_entry">Invaid Entry</string>
+    <string name="compress_dialog_enter_prompt" tools:keep="@string/compress_dialog_enter_prompt">Enter here</string>
+    <string name="compress_dialog_percentage" tools:keep="@string/compress_dialog_percentage">%</string>
+    <string name="set_as_default" tools:keep="@string/set_as_default">Set as default</string>
+    <string name="decrypted_file" tools:keep="@string/decrypted_file">_unencrypted.pdf</string>
+    <string name="decrypt_message" tools:keep="@string/decrypt_message">Enter the password to continue</string>
+    <string name="not_encrypted" tools:keep="@string/not_encrypted">PDF is not Encrypted</string>
+    <string name="save_current" tools:keep="@string/save_current">Save Current</string>
+    <string name="save_first" tools:keep="@string/save_first">Save Current Image First</string>
+    <string name="Filter_name" tools:keep="@string/Filter_name">Filter</string>
+    <string name="Filter_image_preview" tools:keep="@string/Filter_image_preview">Filter Image Preview</string>
+    <string name="warning" tools:keep="@string/warning">Warning</string>
+    <string name="overwrite_message" tools:keep="@string/overwrite_message">There already exists a file with the same name. Do you want to overwrite?</string>
+    <string name="b0_to_b10" tools:keep="@string/b0_to_b10">B0 to B10</string>
+    <string name="a0_to_a10" tools:keep="@string/a0_to_a10">A0 to A10</string>
+    <string name="tabloid" tools:keep="@string/tabloid">TABLOID</string>
+    <string name="executive" tools:keep="@string/executive">EXECUTIVE</string>
+    <string name="ledger" tools:keep="@string/ledger">LEDGER</string>
+    <string name="letter" tools:keep="@string/letter">LETTER</string>
+    <string name="legal" tools:keep="@string/legal">LEGAL</string>
+    <string name="a4" tools:keep="@string/a4">A4</string>
+    <string name="default_page_size" tools:keep="@string/default_page_size">DEFAULT ( %s )</string>
+    <string name="master_password_changed" tools:keep="@string/master_password_changed">The password seems to be incorrect. May be, you have changed the master password.</string>
 
 
-    <string name="delete_alert">Do you want to delete all selected files?</string>
-    <string name="sort_by_title">Sort by</string>
+    <string name="delete_alert" tools:keep="@string/delete_alert">Do you want to delete all selected files?</string>
+    <string name="sort_by_title" tools:keep="@string/sort_by_title">Sort by</string>
 
     <!-- Directory Strings -->
-    <string name="directory">Directory</string>
-    <string name="moving_files">Moving your files</string>
-    <string name="success_move">Successfully moved your files</string>
-    <string name="dir_does_not_exists">Directory does not exist</string>
-    <string name="move_files_delete_dir">Moving files and deleting the directory</string>
-    <string name="directory_deleted">Directory deleted</string>
-    <string name="success_delete_directory">Successfully deleted the directory</string>
-    <string name="moved_files">Files successfully moved</string>
-    <string name="dialog_new_dir">Enter new directory name</string>
-    <string name="dialog_dir">Enter the directory name</string>
+    <string name="directory" tools:keep="@string/directory">Directory</string>
+    <string name="moving_files" tools:keep="@string/moving_files">Moving your files</string>
+    <string name="success_move" tools:keep="@string/success_move">Successfully moved your files</string>
+    <string name="dir_does_not_exists" tools:keep="@string/dir_does_not_exists">Directory does not exist</string>
+    <string name="move_files_delete_dir" tools:keep="@string/move_files_delete_dir">Moving files and deleting the directory</string>
+    <string name="directory_deleted" tools:keep="@string/directory_deleted">Directory deleted</string>
+    <string name="success_delete_directory" tools:keep="@string/success_delete_directory">Successfully deleted the directory</string>
+    <string name="moved_files" tools:keep="@string/moved_files">Files successfully moved</string>
+    <string name="dialog_new_dir" tools:keep="@string/dialog_new_dir">Enter new directory name</string>
+    <string name="dialog_dir" tools:keep="@string/dialog_dir">Enter the directory name</string>
     <string name="cancel">Cancel</string>
-    <string name="ok">OK</string>
-    <string name="yes">Yes</string>
-    <string name="select_all">Select All</string>
-    <string name="converting_file_message">Converting your files to PDF.</string>
+    <string name="ok" tools:keep="@string/ok">OK</string>
+    <string name="yes" tools:keep="@string/yes">Yes</string>
+    <string name="select_all" tools:keep="@string/select_all">Select All</string>
+    <string name="converting_file_message" tools:keep="@string/converting_file_message">Converting your files to PDF.</string>
 
-    <string name="select_text_file">Select Text File</string>
-    <string name="install_file_manager">Please install a File Manager</string>
-    <string name="text_to_pdf">Text To PDF</string>
-    <string name="text_file_selected">Text File Selected</string>
-    <string name="select_file">"Select a File to Upload"</string>
-    <string name="text_type">text/plain</string>
-    <string name="new_directory">New Directory</string>
-    <string name="previous_image_content_desc">Previous Image</string>
-    <string name="text_file_name">"Text File : "</string>
-    <string name="extension_not_supported">Sorry! This file type is not supported currently.</string>
-    <string name="edit_font_size">Font Size (Default : %d)</string>
-    <string name="enter_font_size">Enter font size</string>
-    <string name="example_font">Example : 10</string>
-    <string name="font_size_changed">Font Size Changed</string>
-    <string name="font_size">Font Size : %1$s</string>
-    <string name="about_us">About Us</string>
-    <string name="app_description">An easy to use Android application to convert your files to PDF.</string>
-    <string name="version">Version : </string>
-    <string name="developer">Developer : Swati Garg</string>
-    <string name="github_repo">Github Repository</string>
-    <string name="view_contributors">View Contributors</string>
-    <string name="privacy_policy">Privacy Policy</string>
-    <string name="mail">Send a Mail</string>
-    <string name="join_slack">Join us on Slack</string>
-    <string name="website">Visit our Website</string>
-    <string name="license">License</string>
-    <string name="playstore">Rate us on Playstore</string>
+    <string name="select_text_file" tools:keep="@string/select_text_file">Select Text File</string>
+    <string name="install_file_manager" tools:keep="@string/install_file_manager">Please install a File Manager</string>
+    <string name="text_to_pdf" tools:keep="@string/text_to_pdf">Text To PDF</string>
+    <string name="text_file_selected" tools:keep="@string/text_file_selected">Text File Selected</string>
+    <string name="select_file" tools:keep="@string/select_file">"Select a File to Upload"</string>
+    <string name="text_type" tools:keep="@string/text_type">text/plain</string>
+    <string name="new_directory" tools:keep="@string/new_directory">New Directory</string>
+    <string name="previous_image_content_desc" tools:keep="@string/previous_image_content_desc">Previous Image</string>
+    <string name="text_file_name" tools:keep="@string/text_file_name">"Text File : "</string>
+    <string name="extension_not_supported" tools:keep="@string/extension_not_supported">Sorry! This file type is not supported currently.</string>
+    <string name="edit_font_size" tools:keep="@string/edit_font_size">Font Size (Default : %d)</string>
+    <string name="enter_font_size" tools:keep="@string/enter_font_size">Enter font size</string>
+    <string name="example_font" tools:keep="@string/example_font">Example : 10</string>
+    <string name="font_size_changed" tools:keep="@string/font_size_changed">Font Size Changed</string>
+    <string name="font_size" tools:keep="@string/font_size">Font Size : %1$s</string>
+    <string name="about_us" tools:keep="@string/about_us">About Us</string>
+    <string name="app_description" tools:keep="@string/app_description">An easy to use Android application to convert your files to PDF.</string>
+    <string name="version" tools:keep="@string/version">Version : </string>
+    <string name="developer" tools:keep="@string/developer">Developer : Swati Garg</string>
+    <string name="github_repo" tools:keep="@string/github_repo">Github Repository</string>
+    <string name="view_contributors" tools:keep="@string/view_contributors">View Contributors</string>
+    <string name="privacy_policy" tools:keep="@string/privacy_policy">Privacy Policy</string>
+    <string name="mail" tools:keep="@string/mail">Send a Mail</string>
+    <string name="join_slack" tools:keep="@string/join_slack">Join us on Slack</string>
+    <string name="website" tools:keep="@string/website">Visit our Website</string>
+    <string name="license" tools:keep="@string/license">License</string>
+    <string name="playstore" tools:keep="@string/playstore">Rate us on Playstore</string>
 
     <!-- Preview strings -->
-    <string name="swipe_to_view_next">Swipe left to view next image</string>
-    <string name="showing_image">Showing %1$d of %2$d image(s)</string>
+    <string name="swipe_to_view_next" tools:keep="@string/swipe_to_view_next">Swipe left to view next image</string>
+    <string name="showing_image" tools:ignore="PluralsCandidate" tools:keep="@string/showing_image">Showing %1$d of %2$d image(s)</string>
 
     <!-- Filter strings -->
-    <string name="filter_brush">Brush</string>
-    <string name="filter_none">None</string>
-    <string name="filter_autofix">Auto Fix</string>
-    <string name="filter_grayscale">GrayScale</string>
-    <string name="filter_brightness">Brightness</string>
-    <string name="filter_contrast">Contrast</string>
-    <string name="filter_cross">Cross Process</string>
-    <string name="filter_documentary">Documentary</string>
-    <string name="filter_duetone">Due Tone</string>
-    <string name="filter_filllight">Fill Light</string>
-    <string name="filter_filpver">Flip Vertical</string>
-    <string name="filter_fliphor">Flip Horizontal</string>
-    <string name="filter_grain">Grain</string>
-    <string name="filter_lomish">Lomish</string>
-    <string name="filter_negative">Negative</string>
-    <string name="filter_poster">Posterize</string>
-    <string name="filter_rotate">Rotate</string>
-    <string name="filter_saturate">Saturate</string>
-    <string name="filter_sepia">Sepia</string>
-    <string name="filter_sharpen">Sharpen</string>
-    <string name="filter_temp">Temperature</string>
-    <string name="filter_tint">Tint</string>
-    <string name="filter_vig">Vignette</string>
-    <string name="filter_saved">Image saved</string>
-    <string name="history">History</string>
-    <string name="created">Created</string>
-    <string name="printed">Printed</string>
-    <string name="renamed">Renamed</string>
-    <string name="deleted">Deleted</string>
-    <string name="rotated">Rotated</string>
-    <string name="encrypted">Encrypted</string>
-    <string name="decrypted">Decrypted</string>
-    <string name="no_history_message">No history to show</string>
-    <string name="view_history_here_message">View all your converted files history here!</string>
-    <string name="delete_history_message">Are you sure you want to delete history?</string>
+    <string name="filter_brush" tools:keep="@string/filter_brush">Brush</string>
+    <string name="filter_none" tools:keep="@string/filter_none">None</string>
+    <string name="filter_autofix" tools:keep="@string/filter_autofix">Auto Fix</string>
+    <string name="filter_grayscale" tools:keep="@string/filter_grayscale">GrayScale</string>
+    <string name="filter_brightness" tools:keep="@string/filter_brightness">Brightness</string>
+    <string name="filter_contrast" tools:keep="@string/filter_contrast">Contrast</string>
+    <string name="filter_cross" tools:keep="@string/filter_cross">Cross Process</string>
+    <string name="filter_documentary" tools:keep="@string/filter_documentary">Documentary</string>
+    <string name="filter_duetone" tools:keep="@string/filter_duetone">Due Tone</string>
+    <string name="filter_filllight" tools:keep="@string/filter_filllight">Fill Light</string>
+    <string name="filter_filpver" tools:keep="@string/filter_filpver">Flip Vertical</string>
+    <string name="filter_fliphor" tools:keep="@string/filter_fliphor">Flip Horizontal</string>
+    <string name="filter_grain" tools:keep="@string/filter_grain">Grain</string>
+    <string name="filter_lomish" tools:keep="@string/filter_lomish">Lomish</string>
+    <string name="filter_negative" tools:keep="@string/filter_negative">Negative</string>
+    <string name="filter_poster" tools:keep="@string/filter_poster">Posterize</string>
+    <string name="filter_rotate" tools:keep="@string/filter_rotate">Rotate</string>
+    <string name="filter_saturate" tools:keep="@string/filter_saturate">Saturate</string>
+    <string name="filter_sepia" tools:keep="@string/filter_sepia">Sepia</string>
+    <string name="filter_sharpen" tools:keep="@string/filter_sharpen">Sharpen</string>
+    <string name="filter_temp" tools:keep="@string/filter_temp">Temperature</string>
+    <string name="filter_tint" tools:keep="@string/filter_tint">Tint</string>
+    <string name="filter_vig" tools:keep="@string/filter_vig">Vignette</string>
+    <string name="filter_saved" tools:keep="@string/filter_saved">Image saved</string>
+    <string name="history" tools:keep="@string/history">History</string>
+    <string name="created" tools:keep="@string/created">Created</string>
+    <string name="printed" tools:keep="@string/printed">Printed</string>
+    <string name="renamed" tools:keep="@string/renamed">Renamed</string>
+    <string name="deleted" tools:keep="@string/deleted">Deleted</string>
+    <string name="rotated" tools:keep="@string/rotated">Rotated</string>
+    <string name="encrypted" tools:keep="@string/encrypted">Encrypted</string>
+    <string name="decrypted" tools:keep="@string/decrypted">Decrypted</string>
+    <string name="no_history_message" tools:keep="@string/no_history_message">No history to show</string>
+    <string name="view_history_here_message" tools:keep="@string/view_history_here_message">View all your converted files history here!</string>
+    <string name="delete_history_message" tools:keep="@string/delete_history_message">Are you sure you want to delete history?</string>
 
     <!-- Extract images -->
-    <string name="extract_images">Extract Images</string>
-    <string name="extract_images_failed">We couldn\'t find any images in the selected PDF.</string>
-    <string name="extract_images_success">We found %1$d image(s) in the selected PDF. They have been saved in the PDF Files folder in root directory.</string>
+    <string name="extract_images" tools:keep="@string/extract_images">Extract Images</string>
+    <string name="extract_images_failed" tools:keep="@string/extract_images_failed">We couldn\'t find any images in the selected PDF.</string>
+    <string name="extract_images_success" tools:ignore="PluralsCandidate" tools:keep="@string/extract_images_success">We found %1$d image(s) in the selected PDF. They have been saved in the PDF Files folder in root directory.</string>
 
-    <string name="file_info">\n  File Name : %1$s \n\n  Path : %2$s \n\n  Size : %3$s \n\n  Date Modified %4$s</string>
-    <string name="default_font_family_text">Font Family (Default : %s)</string>
-    <string name="font_family_text">"Font Family : "</string>
-    <string name="courier">COURIER</string>
-    <string name="helvetica">HELVETICA</string>
-    <string name="times_roman">TIMES_ROMAN</string>
-    <string name="symbol">SYMBOL</string>
-    <string name="zapfdingbats">ZAPFDINGBATS</string>
-    <string name="undefined">UNDEFINED</string>
-    <string name="selected_image">Selected Image</string>
-    <string name="arrow_up">Arrow Up</string>
-    <string name="arrow_down">Arrow Down</string>
-    <string name="rearrange_images">Rearrange Images</string>
-    <string name="rearrange_text">Rearrange</string>
+    <string name="file_info" tools:keep="@string/file_info">\n  File Name : %1$s \n\n  Path : %2$s \n\n  Size : %3$s \n\n  Date Modified %4$s</string>
+    <string name="default_font_family_text" tools:keep="@string/default_font_family_text">Font Family (Default : %s)</string>
+    <string name="font_family_text" tools:keep="@string/font_family_text">"Font Family : "</string>
+    <string name="courier" tools:keep="@string/courier">COURIER</string>
+    <string name="helvetica" tools:keep="@string/helvetica">HELVETICA</string>
+    <string name="times_roman" tools:keep="@string/times_roman">TIMES_ROMAN</string>
+    <string name="symbol" tools:keep="@string/symbol">SYMBOL</string>
+    <string name="zapfdingbats" tools:keep="@string/zapfdingbats">ZAPFDINGBATS</string>
+    <string name="undefined" tools:keep="@string/undefined">UNDEFINED</string>
+    <string name="selected_image" tools:keep="@string/selected_image">Selected Image</string>
+    <string name="arrow_up" tools:keep="@string/arrow_up">Arrow Up</string>
+    <string name="arrow_down" tools:keep="@string/arrow_down">Arrow Down</string>
+    <string name="rearrange_images" tools:keep="@string/rearrange_images">Rearrange Images</string>
+    <string name="rearrange_text" tools:keep="@string/rearrange_text">Rearrange</string>
     <string name="images_rearranged">Images rearranged</string>
-    <string name="snackbar_undoAction">Undo</string>
-    <string name="pdf_does_not_exist_message">The PDF doesn\'t exist.</string>
-    <string name="image_rearranging_options">Image Rearranging Options</string>
-    <string name="filter_file_name">%s_%s.jpg</string>
-    <string name="reset">Reset</string>
-    <string name="rotate">Rotate</string>
-    <string name="done">Done</string>
-    <string name="image_successfully_cropped">Image successfully cropped</string>
+    <string name="snackbar_undoAction" tools:keep="@string/snackbar_undoAction">Undo</string>
+    <string name="pdf_does_not_exist_message" tools:keep="@string/pdf_does_not_exist_message">The PDF doesn\'t exist.</string>
+    <string name="image_rearranging_options" tools:keep="@string/image_rearranging_options">Image Rearranging Options</string>
+    <string name="filter_file_name" tools:keep="@string/filter_file_name">%s_%s.jpg</string>
+    <string name="reset" tools:keep="@string/reset">Reset</string>
+    <string name="rotate" tools:keep="@string/rotate">Rotate</string>
+    <string name="done" tools:keep="@string/done">Done</string>
+    <string name="image_successfully_cropped" tools:keep="@string/image_successfully_cropped">Image successfully cropped</string>
 
-    <string name="confirm_exit_message">Press back again to exit</string>
+    <string name="confirm_exit_message" tools:keep="@string/confirm_exit_message">Press back again to exit</string>
 
-    <string name="border">Add Image Border</string>
-    <string name="border_dialog_title">Border width : %d</string>
-    <string name="border_width_prompt">Enter border width units</string>
-    <string name="filter_not_saved">Image could not be saved</string>
-    <string name="remove_image_message">Are you sure you want to remove this image?</string>
-    <string name="dont_show_again">Don\'t show again</string>
-    <string name="remove_page_message">Are you sure you want to remove this page?</string>
+    <string name="border" tools:keep="@string/border">Add Image Border</string>
+    <string name="border_dialog_title" tools:keep="@string/border_dialog_title">Border width : %d</string>
+    <string name="border_width_prompt" tools:keep="@string/border_width_prompt">Enter border width units</string>
+    <string name="filter_not_saved" tools:keep="@string/filter_not_saved">Image could not be saved</string>
+    <string name="remove_image_message" tools:keep="@string/remove_image_message">Are you sure you want to remove this image?</string>
+    <string name="dont_show_again" tools:keep="@string/dont_show_again">Don\'t show again</string>
+    <string name="remove_page_message" tools:keep="@string/remove_page_message">Are you sure you want to remove this page?</string>
 
     <!-- Watermark Strings -->
-    <string name="encrypted_file_text">encrypted file</string>
+    <string name="encrypted_file_text" tools:keep="@string/encrypted_file_text">encrypted file</string>
 
     <!-- Split PDF -->
-    <string name="split_pdf">Split PDF</string>
-    <string name="split_success">The selected PDF was split successfully. It was split into %1$d PDF(s)</string>
-    <string name="split_info">The PDF will be split into multiple PDFs of single page.</string>
+    <string name="split_pdf" tools:keep="@string/split_pdf">Split PDF</string>
+    <string name="split_success" tools:keep="@string/split_success">The selected PDF was split successfully. It was split into %1$d PDF(s)</string>
+    <string name="split_info" tools:keep="@string/split_info">The PDF will be split into multiple PDFs of single page.</string>
 
     <!-- Remove Pages -->
-    <string name="remove_pages">Remove Pages</string>
-    <string name="remove_pages_error">The input value is not valid</string>
-    <string name="encrypted_pdf">PDF is password protected</string>
-    <string name="file_access_error">We were unable to access PDF. Files may be encrypted or in the external storage.</string>
+    <string name="remove_pages" tools:keep="@string/remove_pages">Remove Pages</string>
+    <string name="remove_pages_error" tools:keep="@string/remove_pages_error">The input value is not valid</string>
+    <string name="encrypted_pdf" tools:keep="@string/encrypted_pdf">PDF is password protected</string>
+    <string name="file_access_error" tools:keep="@string/file_access_error">We were unable to access PDF. Files may be encrypted or in the external storage.</string>
 
     <!-- Reorder Pages -->
-    <string name="reorder_pages">Reorder Pages</string>
+    <string name="reorder_pages" tools:keep="@string/reorder_pages">Reorder Pages</string>
 
     <!-- Compress PDF -->
-    <string name="compress_pdf">Compress PDF</string>
-    <string name="compress_pdf_prompt">Enter % compression of PDF : </string>
-    <string name="compress_info">Congratulations! Your PDF is compressed: \n Original PDF Size : %s \n Compressed PDF Size: %s</string>
+    <string name="compress_pdf" tools:keep="@string/compress_pdf">Compress PDF</string>
+    <string name="compress_pdf_prompt" tools:ignore="StringFormatInvalid" tools:keep="@string/compress_pdf_prompt">Enter % compression of PDF : </string>
+    <string name="compress_info" tools:keep="@string/compress_info">Congratulations! Your PDF is compressed: \n Original PDF Size : %s \n Compressed PDF Size: %s</string>
 
     <!-- PDF to Images string resources-->
-    <string name="pdf_to_images">PDF to Images</string>
-    <string name="create_images">Create Images</string>
-    <string name="select_pdf_file">Select PDF File</string>
-    <string name="share_images">Share Images</string>
-    <string name="view_images">View Images</string>
+    <string name="pdf_to_images" tools:keep="@string/pdf_to_images">PDF to Images</string>
+    <string name="create_images" tools:keep="@string/create_images">Create Images</string>
+    <string name="select_pdf_file" tools:keep="@string/select_pdf_file">Select PDF File</string>
+    <string name="share_images" tools:keep="@string/share_images">Share Images</string>
+    <string name="view_images" tools:keep="@string/view_images">View Images</string>
 
     <!-- Remove Duplicate Pages -->
-    <string name="remove_duplicate_pages">Remove Duplicate Pages</string>
-    <string name="remove_duplicate_info">The duplicate pages in the PDF will be removed.</string>
-    <string name="remove_duplicate">Remove Duplicate Pages.</string>
+    <string name="remove_duplicate_pages" tools:keep="@string/remove_duplicate_pages">Remove Duplicate Pages</string>
+    <string name="remove_duplicate_info" tools:keep="@string/remove_duplicate_info">The duplicate pages in the PDF will be removed.</string>
+    <string name="remove_duplicate" tools:keep="@string/remove_duplicate">Remove Duplicate Pages.</string>
 
     <!-- Rate us strings -->
-    <string name="rate_positive">Rate now</string>
-    <string name="rate_negative">No, thanks</string>
-    <string name="rate_title">Rate us!</string>
-    <string name="rate_dialog_text">If you enjoy this app, please take a moment to rate this app. It won\'t take more than a minute. Thank you for your support! :)</string>
-    <string name="rate_us_never">Never</string>
-    <string name="error_occurred">Error Occurred</string>
+    <string name="rate_positive" tools:keep="@string/rate_positive">Rate now</string>
+    <string name="rate_negative" tools:keep="@string/rate_negative">No, thanks</string>
+    <string name="rate_title" tools:keep="@string/rate_title">Rate us!</string>
+    <string name="rate_dialog_text" tools:keep="@string/rate_dialog_text">If you enjoy this app, please take a moment to rate this app. It won\'t take more than a minute. Thank you for your support! :)</string>
+    <string name="rate_us_never" tools:keep="@string/rate_us_never">Never</string>
+    <string name="error_occurred" tools:keep="@string/error_occurred">Error Occurred</string>
 
-    <string name="rotate_pages">Rotate Pages</string>
-    <string name="enter_rotation_angle">Enter Rotation Angle</string>
-    <string name="rotated_file_name">%s_rotated_%s%s</string>
-    <string name="degree_90" translatable="false">90 &#xb0;</string>
-    <string name="degree_180" translatable="false">180 &#xb0;</string>
-    <string name="degree_270" translatable="false">270 &#xb0;</string>
-    <string name="share_files">Share Files</string>
-    <string name="pdf_removed_from_list">PDF has been removed from the list.</string>
-    <string name="pdf_added_to_list">PDF has been added to the list.</string>
-    <string name="select_files">Select Files</string>
+    <string name="rotate_pages" tools:keep="@string/rotate_pages">Rotate Pages</string>
+    <string name="enter_rotation_angle" tools:keep="@string/enter_rotation_angle">Enter Rotation Angle</string>
+    <string name="rotated_file_name" tools:keep="@string/rotated_file_name">%s_rotated_%s%s</string>
+    <string name="degree_90" translatable="false" tools:keep="@string/degree_90">90 &#xb0;</string>
+    <string name="degree_180" translatable="false" tools:keep="@string/degree_180">180 &#xb0;</string>
+    <string name="degree_270" translatable="false" tools:keep="@string/degree_270">270 &#xb0;</string>
+    <string name="share_files" tools:keep="@string/share_files">Share Files</string>
+    <string name="pdf_removed_from_list" tools:keep="@string/pdf_removed_from_list">PDF has been removed from the list.</string>
+    <string name="pdf_added_to_list" tools:keep="@string/pdf_added_to_list">PDF has been added to the list.</string>
+    <string name="select_files" tools:keep="@string/select_files">Select Files</string>
 
     <!-- Settings page -->
-    <string name="settings">Settings</string>
-    <string name="compression_image_edit">Change image compression value</string>
-    <string name="font_family_edit">Change default font family</string>
-    <string name="font_size_edit">Change default font size</string>
-    <string name="theme_edit">Change default theme</string>
-    <string name="image_compression_value_default">Image Compression default value : %d %%</string>
-    <string name="theme_value_def">Theme default value : %s </string>
-    <string name="page_size_value_def">Page size default value : %s </string>
-    <string name="font_size_value_def">Font size default value : %d </string>
-    <string name="font_family_value_def">Font family default value : %s </string>
-    <string name="settings_info">You can modify the default value for various settings here.</string>
-    <string name="storage_location_modified">Storage location changed</string>
-    <string name="storage_location_info">Change storage location</string>
-    <string name="theme_white">White</string>
-    <string name="theme_dark">Dark</string>
-    <string name="theme_black">Black</string>
-    <string name="change_master_pwd">Change Master password</string>
-    <string name="current_master_pwd">The current master password is \"%1$s\" for every encrypted PDF. You can change it here:</string>
+    <string name="settings" tools:keep="@string/settings">Settings</string>
+    <string name="compression_image_edit" tools:keep="@string/compression_image_edit">Change image compression value</string>
+    <string name="font_family_edit" tools:keep="@string/font_family_edit">Change default font family</string>
+    <string name="font_size_edit" tools:keep="@string/font_size_edit">Change default font size</string>
+    <string name="theme_edit" tools:keep="@string/theme_edit">Change default theme</string>
+    <string name="image_compression_value_default" tools:keep="@string/image_compression_value_default">Image Compression default value : %d %%</string>
+    <string name="theme_value_def" tools:keep="@string/theme_value_def">Theme default value : %s </string>
+    <string name="page_size_value_def" tools:keep="@string/page_size_value_def">Page size default value : %s </string>
+    <string name="font_size_value_def" tools:keep="@string/font_size_value_def">Font size default value : %d </string>
+    <string name="font_family_value_def" tools:keep="@string/font_family_value_def">Font family default value : %s </string>
+    <string name="settings_info" tools:keep="@string/settings_info">You can modify the default value for various settings here.</string>
+    <string name="storage_location_modified" tools:keep="@string/storage_location_modified">Storage location changed</string>
+    <string name="storage_location_info" tools:keep="@string/storage_location_info">Change storage location</string>
+    <string name="theme_white" tools:keep="@string/theme_white">White</string>
+    <string name="theme_dark" tools:keep="@string/theme_dark">Dark</string>
+    <string name="theme_black" tools:keep="@string/theme_black">Black</string>
+    <string name="change_master_pwd" tools:keep="@string/change_master_pwd">Change Master password</string>
+    <string name="current_master_pwd" tools:keep="@string/current_master_pwd">The current master password is \"%1$s\" for every encrypted PDF. You can change it here:</string>
 
     <!-- Home page -->
-    <string name="home_page">Home</string>
-    <string name="create_new_pdfs">Create new PDF</string>
-    <string name="view_pdfs">View PDFs</string>
-    <string name="modify_existing_pdfs">Modify existing PDFs</string>
-    <string name="more_options">More Options</string>
-    <string name="add_password">Add password</string>
-    <string name="remove_password">Remove password</string>
-    <string name="enhance_created_pdfs">Enhance Created PDFs</string>
-    <string name="viewfiles_rotatepages">1. Select the PDF you wish to rotate. \n2. Select Rotate Pages. \n3. Select angle of rotation. Select OK. \n4. New rotated PDF will be created.</string>
-    <string name="viewfiles_addpassword">1. Select the PDF you wish to add password to. \n2. Select Add Password. \n3. Type new password. Select OK. \n4. New PDF with password be created.</string>
-    <string name="viewfiles_removepassword">1. Select the PDF you wish to remove password from. \n2. Select Remove Password. \n3. Type PDF password. Select OK. \n4. New PDF without PDF will be created.</string>
-    <string name="grayscale_images">Create grayscale PDF</string>
-    <string name="add_margins">Add Margins</string>
-    <string name="choose_page_number_style">Choose Page Number Style</string>
-    <string name="show_pg_num">Show page numbers</string>
-    <string name="top">Top</string>
-    <string name="bottom">Bottom</string>
-    <string name="right">Right</string>
-    <string name="left">Left</string>
-    <string name="page_x_of_n">Page X of N</string>
-    <string name="page_x">X of N</string>
-    <string name="x">X</string>
+    <string name="home_page" tools:keep="@string/home_page">Home</string>
+    <string name="create_new_pdfs" tools:keep="@string/create_new_pdfs">Create new PDF</string>
+    <string name="view_pdfs" tools:keep="@string/view_pdfs">View PDFs</string>
+    <string name="modify_existing_pdfs" tools:keep="@string/modify_existing_pdfs">Modify existing PDFs</string>
+    <string name="more_options" tools:keep="@string/more_options">More Options</string>
+    <string name="add_password" tools:keep="@string/add_password">Add password</string>
+    <string name="remove_password" tools:keep="@string/remove_password">Remove password</string>
+    <string name="enhance_created_pdfs" tools:keep="@string/enhance_created_pdfs">Enhance Created PDFs</string>
+    <string name="viewfiles_rotatepages" tools:keep="@string/viewfiles_rotatepages">1. Select the PDF you wish to rotate. \n2. Select Rotate Pages. \n3. Select angle of rotation. Select OK. \n4. New rotated PDF will be created.</string>
+    <string name="viewfiles_addpassword" tools:keep="@string/viewfiles_addpassword">1. Select the PDF you wish to add password to. \n2. Select Add Password. \n3. Type new password. Select OK. \n4. New PDF with password be created.</string>
+    <string name="viewfiles_removepassword" tools:keep="@string/viewfiles_removepassword">1. Select the PDF you wish to remove password from. \n2. Select Remove Password. \n3. Type PDF password. Select OK. \n4. New PDF without PDF will be created.</string>
+    <string name="grayscale_images" tools:keep="@string/grayscale_images">Create grayscale PDF</string>
+    <string name="add_margins" tools:keep="@string/add_margins">Add Margins</string>
+    <string name="choose_page_number_style" tools:keep="@string/choose_page_number_style">Choose Page Number Style</string>
+    <string name="show_pg_num" tools:keep="@string/show_pg_num">Show page numbers</string>
+    <string name="top" tools:keep="@string/top">Top</string>
+    <string name="bottom" tools:keep="@string/bottom">Bottom</string>
+    <string name="right" tools:keep="@string/right">Right</string>
+    <string name="left" tools:keep="@string/left">Left</string>
+    <string name="page_x_of_n" tools:keep="@string/page_x_of_n">Page X of N</string>
+    <string name="page_x" tools:keep="@string/page_x">X of N</string>
+    <string name="x" tools:keep="@string/x">X</string>
 
     <!-- Welcome screens-->
-    <string name="welcome_create_pdf_message">Creating a PDF file</string>
-    <string name="welcome_create_pdf_info">View the PDF files previously created or create a new one!</string>
-    <string name="welcome_themes_title">Different themes</string>
-    <string name="welcome_themes_message">Go to Settings, and you can choose from three type of themes : Black, Dark, White</string>
-    <string name="welcome_merge_title">Merge PDF file</string>
-    <string name="welcome_merge_message">Merge different existing PDF in your phone in one file</string>
-    <string name="welcome_viewfiles_title">Viewing the PDF files</string>
-    <string name="welcome_viewfiles_message">View, delete, rename, share and add password to your PDF file</string>
-    <string name="skip_text">Skip</string>
-    <string name="get_started_title">Get Started!</string>
+    <string name="welcome_create_pdf_message" tools:keep="@string/welcome_create_pdf_message">Creating a PDF file</string>
+    <string name="welcome_create_pdf_info" tools:keep="@string/welcome_create_pdf_info">View the PDF files previously created or create a new one!</string>
+    <string name="welcome_themes_title" tools:keep="@string/welcome_themes_title">Different themes</string>
+    <string name="welcome_themes_message" tools:keep="@string/welcome_themes_message">Go to Settings, and you can choose from three type of themes : Black, Dark, White</string>
+    <string name="welcome_merge_title" tools:keep="@string/welcome_merge_title">Merge PDF file</string>
+    <string name="welcome_merge_message" tools:keep="@string/welcome_merge_message">Merge different existing PDF in your phone in one file</string>
+    <string name="welcome_viewfiles_title" tools:keep="@string/welcome_viewfiles_title">Viewing the PDF files</string>
+    <string name="welcome_viewfiles_message" tools:keep="@string/welcome_viewfiles_message">View, delete, rename, share and add password to your PDF file</string>
+    <string name="skip_text" tools:keep="@string/skip_text">Skip</string>
+    <string name="get_started_title" tools:keep="@string/get_started_title">Get Started!</string>
 
     <!-- Whats New Dialog -->
-    <string name="whatsnew_continue">Continue</string>
-    <string name="whatsnew_title">What\'s New</string>
+    <string name="whatsnew_continue" tools:keep="@string/whatsnew_continue">Continue</string>
+    <string name="whatsnew_title" tools:keep="@string/whatsnew_title">What\'s New</string>
 
     <!--watermark strings -->
-    <string name="watermark_added">Watermark Added</string>
-    <string name="watermarked">Watermarked</string>
-    <string name="watermarked_file">_watermarked.pdf</string>
-    <string name="watermark_remove">Watermark Removed</string>
-    <string name="snackbar_watermark_cannot_be_blank">Text cannot be blank</string>
-    <string name="cannot_add_watermark">Watermark could not be added to the PDF. Please check the PDF again.</string>
-    <string name="add_watermark">Add Watermark</string>
-    <string name="enter_watermark_text">Enter text</string>
-    <string name="enter_watermark_angle">Enter angle</string>
-    <string name="watermark_angle">Angle</string>
-    <string name="choose_watermark_color">Choose color</string>
-    <string name="enter_watermark_font_size">Enter font size</string>
-    <string name="choose_watermark_font_family">Choose font family</string>
-    <string name="watermark_font_size">Font size</string>
-    <string name="choose_watermark_style">Choose style</string>
-    <string name="viewfiles_addwatermark">1. Select the PDF you wish to add watermark to. \n2. Select Add Watermark. \n3. Fill the required information. Select OK. \n4. New PDF with watermark will be created.</string>
+    <string name="watermark_added" tools:keep="@string/watermark_added">Watermark Added</string>
+    <string name="watermarked" tools:keep="@string/watermarked">Watermarked</string>
+    <string name="watermarked_file" tools:keep="@string/watermarked_file">_watermarked.pdf</string>
+    <string name="watermark_remove" tools:keep="@string/watermark_remove">Watermark Removed</string>
+    <string name="snackbar_watermark_cannot_be_blank" tools:keep="@string/snackbar_watermark_cannot_be_blank">Text cannot be blank</string>
+    <string name="cannot_add_watermark" tools:keep="@string/cannot_add_watermark">Watermark could not be added to the PDF. Please check the PDF again.</string>
+    <string name="add_watermark" tools:keep="@string/add_watermark">Add Watermark</string>
+    <string name="enter_watermark_text" tools:keep="@string/enter_watermark_text">Enter text</string>
+    <string name="enter_watermark_angle" tools:keep="@string/enter_watermark_angle">Enter angle</string>
+    <string name="watermark_angle" tools:keep="@string/watermark_angle">Angle</string>
+    <string name="choose_watermark_color" tools:keep="@string/choose_watermark_color">Choose color</string>
+    <string name="enter_watermark_font_size" tools:keep="@string/enter_watermark_font_size">Enter font size</string>
+    <string name="choose_watermark_font_family" tools:keep="@string/choose_watermark_font_family">Choose font family</string>
+    <string name="watermark_font_size" tools:keep="@string/watermark_font_size">Font size</string>
+    <string name="choose_watermark_style" tools:keep="@string/choose_watermark_style">Choose style</string>
+    <string name="viewfiles_addwatermark" tools:keep="@string/viewfiles_addwatermark">1. Select the PDF you wish to add watermark to. \n2. Select Add Watermark. \n3. Fill the required information. Select OK. \n4. New PDF with watermark will be created.</string>
 
     <!--<nav add images>-->
-    <string name="add_images">Add Images</string>
-    <string name="selected_images_text">The images you select will be added to the end of selected PDF.</string>
-    <string name="no_images_selected">No images selected</string>
+    <string name="add_images" tools:keep="@string/add_images">Add Images</string>
+    <string name="selected_images_text" tools:keep="@string/selected_images_text">The images you select will be added to the end of selected PDF.</string>
+    <string name="no_images_selected" tools:keep="@string/no_images_selected">No images selected</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" tools:keep="@string/hello_blank_fragment">Hello blank fragment</string>
 </resources>

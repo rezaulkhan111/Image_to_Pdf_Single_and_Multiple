@@ -19,30 +19,4 @@
     </RelativeLayout>
 
 
-    <!--<Button-->
-    <!--android:id="@+id/btn_convert"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_alignParentBottom="true"-->
-    <!--android:clickable="false"-->
-    <!--android:text="Convert" />-->
-
-    <!--<ImageView-->
-    <!--android:id="@+id/iv_image1"-->
-    <!--android:layout_width="40dp"-->
-    <!--android:layout_height="40dp"-->
-    <!--android:layout_below="@+id/btn_select" />-->
-
-    <!--<ImageView-->
-    <!--android:id="@+id/iv_image2"-->
-    <!--android:layout_width="40dp"-->
-    <!--android:layout_height="40dp"-->
-    <!--android:layout_below="@+id/iv_image1" />-->
-
-    <!--<ImageView-->
-    <!--android:id="@+id/iv_image3"-->
-    <!--android:layout_width="40dp"-->
-    <!--android:layout_height="40dp"-->
-    <!--android:layout_below="@+id/iv_image2" />-->
-
 </RelativeLayout>

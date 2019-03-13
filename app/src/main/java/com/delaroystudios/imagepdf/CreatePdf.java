@@ -1,11 +1,9 @@
 package com.delaroystudios.imagepdf;
 
-import android.database.Cursor;
+import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.os.AsyncTask;
-import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
@@ -158,7 +156,7 @@ public class CreatePdf extends AsyncTask<String, String, String> {
 
                 document.newPage();
             }
-            String targetPdf = "/sdcard/test.pdf";
+            @SuppressLint("SdCardPath") String targetPdf = "/sdcard/test.pdf";
             File filePath = new File(targetPdf);
 
             Log.v("Stage 8", "Image adding");
@@ -187,6 +185,7 @@ public class CreatePdf extends AsyncTask<String, String, String> {
         }
     }
 
+    @SuppressLint("DefaultLocale")
     @NonNull
     private Phrase getPhrase(PdfWriter writer, String pageNumStyle, int size) {
         Phrase phrase;

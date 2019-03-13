@@ -8,7 +8,8 @@
         android:id="@+id/btn_select"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Image" />
+        android:text="Select Image"
+        tools:ignore="HardcodedText" />
 
 
     <Button
@@ -18,7 +19,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="200dp"
         android:clickable="false"
-        android:text="Convert" />
+        android:text="Convert"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/tv_NoOfImages"
@@ -26,7 +28,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="mNoOfImages" />
+        android:text="mNoOfImages"
+        tools:ignore="HardcodedText" />
 
     <!--<ImageView-->
     <!--android:id="@+id/iv_image1"-->
